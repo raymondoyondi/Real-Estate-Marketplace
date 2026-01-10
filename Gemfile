@@ -39,7 +39,7 @@ gem 'jbuilder', '~> 2.15.0'
 # gem 'mini_magick', '~> 5.3.1'
 
 # Use devise
-gem 'devise', '= 4.94'
+gem 'devise', '= 4.9.4'
 
 # Use Bootstrap for UI
 gem 'bootstrap'
