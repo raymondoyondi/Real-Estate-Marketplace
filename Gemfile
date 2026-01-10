@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.7'
+gem 'rails', '~> 6.1.0'
 
 
 
@@ -43,7 +43,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 
 # Use devise
-gem 'devise'
+gem 'devise', '~>4.8'
 
 # Use Bootstrap for UI
 gem 'bootstrap'
@@ -86,7 +86,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gem to seed the DB
-gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+gem 'faker', '~> 3.5'
 
 # Gem for Omniauth
 gem 'omniauth' 
