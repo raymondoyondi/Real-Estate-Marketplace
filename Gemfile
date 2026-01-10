@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.2'
+ruby '3.4.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.0'
+gem 'rails', '~> 8.1.2'
 
 
 
@@ -19,7 +19,7 @@ group :production do
 end
 
 # Use Puma as the app server
-gem 'puma', '~> 6.0'
+gem 'puma', '~> 7.1.0'
 # Use SCSS for stylesheets
 gem 'sassc-rails', '~> 2.1.2'
 # Use Uglifier as compressor for JavaScript assets
@@ -33,17 +33,17 @@ gem 'coffee-rails', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5.2.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.14.1'
+gem 'jbuilder', '~> 2.15.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 5.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.2'
+# gem 'bcrypt', '~> 3.1.20'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 5.3.1'
 
 # Use devise
-gem 'devise', '>= 4.9.4'
+gem 'devise', '>= 5.0.0.rc'
 
 # Use Bootstrap for UI
 gem 'bootstrap'
@@ -53,7 +53,7 @@ gem 'jquery-rails'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.20.1', require: false
+gem 'bootsnap', '>= 1.18.4', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -70,7 +70,7 @@ group :development do
 end
 
 # Carrierwave gem file
-gem 'carrierwave', '~> 3.1.2'
+gem 'carrierwave', '~> 3.3.0'
 
 #gem "mini_magick"
 
