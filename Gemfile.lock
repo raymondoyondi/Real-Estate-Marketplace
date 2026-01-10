@@ -1,4 +1,4 @@
-`GIT
+GIT
   remote: https://github.com/larskanis/sqlite3-ruby
   revision: 1027509079176fcc4088dcc7638101cde617cf16
   branch: add-gemspec
