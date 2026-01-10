@@ -66,7 +66,7 @@ group :development do
 end
 
 # Carrierwave gem file
-gem 'carrierwave', '~> 3.3.0'
+gem 'carrierwave', '~> 3.1.2'
 
 #gem "mini_magick"
 
