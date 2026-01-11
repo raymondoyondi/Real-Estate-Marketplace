@@ -12,7 +12,10 @@ gem 'bigdecimal'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 8.1.2'
 
-
+# --- ASSET PIPELINE ---
+# Propshaft is the modern default for Rails 8. 
+# It works seamlessly with dartsass-rails to serve compiled CSS.
+gem 'propshaft'
 
 # Database for development and testing
 group :development, :test do
