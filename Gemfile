@@ -48,6 +48,7 @@ gem 'jbuilder', '~> 2.14.1'
 gem 'devise', '= 4.9.4'
 
 # Use Bootstrap for UI
+gem 'dartsass-rails'
 gem 'bootstrap'
 gem 'jquery-rails'
 
