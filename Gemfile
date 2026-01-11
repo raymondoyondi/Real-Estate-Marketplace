@@ -15,7 +15,7 @@ group :development, :test do
 end
 # Database for production
 group :production do
-  gem 'pg'
+  gem 'pg', '= 1.6.3'
 end
 
 # Use Puma as the app server
