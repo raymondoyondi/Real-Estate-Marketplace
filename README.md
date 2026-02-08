@@ -1,4 +1,4 @@
-# Real Estate App 🏠
+# Real Estate Marketplace 🏠
 
 A comprehensive digital marketplace built with **Ruby on Rails** that connects property buyers, sellers, and renters. This application allows users to list properties, browse available real estate, and manage inquiries through a streamlined, user-friendly interface.
 
